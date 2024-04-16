@@ -1,0 +1,106 @@
+body{
+    box-sizing: border-box;
+    background: url('https://wallpapercave.com/wp/wp2356164.jpg')no-repeat center center/cover;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+	background-blend-mode: darken;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2{
+    text-align: center;
+}
+
+.signup{
+    text-align: center;
+}
+
+/* 
+.signup a:hover{
+    border-bottom:2px solid red;
+} */
+
+a{
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(70, 234, 240, 0.65);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+
+a:hover::after{
+    width: 100%;
+}
+
+.showcase {
+	width: 100%;
+	height: 110vh;
+	position: relative;
+}
+.logo {
+	position: relative;
+	z-index: 2;
+	height: 90px;
+}
+
+.logo span{
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid rgb(223, 206, 206);
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+.wrapper{
+    background-color: black;
+    width: 500px;
+    padding: 25px;
+    margin:20px auto;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    box-shadow: inset 30px 10px 150px #000000;
+    background: rgb(0, 0, 0, 0.65);
+    color: white;
+    border: 3px solid;
+    box-shadow: 5px 5px 20px;
+}
+
+.input{
+    margin-left: 35%;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30%;
+}
+
+.btn{
+    width: 50%;
+    margin-left: 27%;
+    background: transparent;
+    border: none;
+    background: #f10c0c;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 1.0);
+	cursor: pointer;
+    font-family: "Roboto" sans-serif;
+	text-transform: uppercase;
+}
+.btn:hover{
+    background: #db3a3a98;
+}

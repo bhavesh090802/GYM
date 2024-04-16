@@ -1,0 +1,101 @@
+.footer .box-container {
+    display: flex;
+    margin: auto;
+    gap: 1.5rem;
+    background: #bd3a25f7;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: rgb(1 12 26 / 90%);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .links {
+  font-size: 1.5rem;
+  display: block;
+  padding: 1rem 0;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(1 12 26 / 90%);
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.footer .box-container .box .links::after{
+  content: '';
+  position: absolute;
+  background-color: #0e0404;
+  height: 3px;  
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.2s;
+}
+
+.footer .box-container .box .links:hover::after {
+  width: 45%;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #0a0000;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box p i {
+  padding-right: .5rem;
+  color: #69d8dd;
+}
+
+.footer .box-container .box .share {
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  color: #0a89af7d;
+  background: #322d2d;
+  border-radius: 50%;
+  margin-right: .5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background: #322d2d;
+}
+
+.footer .box-container .box form .email {
+  margin-bottom: 1rem;
+  width: 100%;
+  background: #111;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: none;
+}
+
+.credit {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  background: #111;
+  line-height: 1.5;
+}
+
+.credit span {
+  color: #f00;
+}
+
+h2{
+  text-align: center;
+  color: red;
+  font-size: 70px;
+}
